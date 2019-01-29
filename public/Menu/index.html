@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login to Connect 4</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="/Menu/style.css">
+    </head>
+    <body class="grey">
+
+        <div class="row">
+            <div id="account" class="col s4 offset-s4 white">
+
+                <div class="row">
+                    <div class="input-field col s9 offset-s1">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Account name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s9 offset-s1">
+                        <i class="material-icons prefix">security</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="buttons" class="col s4 offset-s6">
+                        <a id="login" class="waves-effect waves-light btn" data-mode="login">Log in</a>
+                        <a id="create-account" class="waves-effect waves-light btn" data-mode="create-account">Sign up</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="/Vendors/sha256/sha256.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script>var socket = io();</script>
+        <script src="/Menu/menu.js"></script>
+    </body>
+</html>

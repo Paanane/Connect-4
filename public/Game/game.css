@@ -1,0 +1,70 @@
+.hidden {
+	display: none;
+}
+
+#game {
+	position: relative;
+	width: 1000px;
+	height: 700px;
+}
+
+#canvas {
+	position: absolute;
+	border: 2px solid black;
+}
+
+#turn {
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#restart {
+	 position: absolute;
+	 top:600px;
+	 left:850px;
+}
+
+#quit {
+	position: absolute;
+	top:630px;
+	left:850px;
+}
+
+.s1 {
+	position: absolute;
+	top:5px;
+	left:35px;
+}
+.s2 {
+	position: absolute;
+	top:5px;
+	left:145px;
+}
+.s3 {
+	position: absolute;
+	top:5px;
+	left:255px;
+}
+.s4 {
+	position: absolute;
+	top:5px;
+	left:365px;
+}
+.s5 {
+	position: absolute;
+	top:5px;
+	left:475px;
+}
+.s6 {
+	position: absolute;
+	top:5px;
+	left:585px;
+}
+.s7 {
+	position: absolute;
+	top:5px;
+	left:695px;
+}

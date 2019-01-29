@@ -1,0 +1,65 @@
+/* Container */
+#chat {
+	float: right;
+	margin-right: 25px;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	border: 1px solid #dedede;
+	background: #222222;
+}
+
+/* Online users */
+#users-wrapper {
+	height: 10%;
+}
+
+#online-users > li {
+	border: 1px solid #333;
+	padding: 3px;
+	float: left;
+	height: 25px;
+	background: #333333;
+}
+
+/* Messages */
+#messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#messages li {
+	padding: 10px 15px;
+	color: #ccc;
+}
+
+#messages li:nth-child(odd) {
+	background: #444;
+}
+
+/* Chat controls */
+#controls {
+	background: #676767;
+	padding: 3px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#controls > input {
+	padding: 10px;
+	width: 68%;
+	height: 25px;
+	background-color: #dedede;
+	float: left;
+}
+
+#controls > button {
+	width: 20%;
+	background: rgb(130, 224, 255);
+	border: 1px solid #676767;
+	padding: 10px;
+	float: left;
+	margin-left: 2px;
+}

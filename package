@@ -1,0 +1,7 @@
+{
+  "name": "Connect 4",
+  "version": "0.0.1",
+  "main" : "main.js",
+  "description": "Connect 4 game made with sockets and shit",
+  "dependencies": {}
+}

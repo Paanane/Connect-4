@@ -1,0 +1,101 @@
+/***********\
+*   Global  *
+\***********/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 13px Helvetica, Arial;
+}
+
+ul {
+	list-style: none;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/***********\
+*   Lobby   *
+\***********/
+
+#site > * {
+	margin-top: 10px;
+}
+
+#lobby {
+	text-align: center;
+	width: 40%;
+	margin-left: 15%;
+	border: 1px solid #dedede;
+	height: 400px;
+	float: left;
+}
+
+#lobby h2 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dedede;
+	color: #dedede;
+}
+
+#lobbies {
+	max-height: 300px;
+}
+
+ul:empty::after{
+	content: attr(data-empty-message);
+}
+
+#lobbies > li {
+	position: relative;
+	height: 50px;
+	padding: 10px;
+	background-color: dodgerblue;
+	border: 1px solid #232323;
+	font-size: 24px;
+}
+
+#lobbies > li:not(:first-child) {
+	border-top: none;
+}
+
+#lobbies > li > i {
+	position: absolute;
+	cursor: pointer;
+	right: 5px;
+}
+
+#create-lobby {
+	border-radius: 10%;
+	border: 2px solid #dedede;
+	background: green;
+	padding: 10px;
+}
+
+/************\
+*  Profile   *
+\************/
+
+#profile {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	padding: 15px;
+	border: 1px solid #dedede;
+}
+
+#profile > * {
+	color: #dedede;
+	
+}
+
+#profile button {
+	padding: 5px;
+}

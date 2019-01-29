@@ -1,0 +1,392 @@
+Server online at localhost:51911
+Someone tried to access root
+wzpa connected, current users: wzpa
+Server online at localhost:51911
+Someone tried to access root
+wzpa connected, current users: wzpa
+Server online at localhost:51911
+Someone tried to access root
+wzpa connected, current users: wzpa
+Server online at localhost:51911
+Someone tried to access root
+wzpa connected, current users: wzpa
+Someone tried to access root
+wzpa connected, current users: wzpa,wzpa
+ left, current users: wzpa
+Someone tried to access root
+wzpa connected, current users: wzpa,wzpa
+wzpa joined room 54047
+wzpa joined game 54047
+inside rooms foreach: room[id]: 54047
+{ creator: 'wzpa',
+  id: 54047,
+  title: 'Gamer',
+  players: [ 'wzpa', null ],
+  currentPlayer: 'wzpa' }
+Room 54047 was not found, wzpa failed to join.
+[ 'wzpa', null ]
+wzpawzpa left, current users: 
+wzpa joined game 54047
+inside rooms foreach: room[id]: 54047
+{ creator: 'wzpa',
+  id: 54047,
+  title: 'Gamer',
+  players: [ 'wzpa', null ],
+  currentPlayer: 'wzpa' }
+Room 54047 was not found, wzpa failed to join.
+[ 'wzpa', null ]
+Removing room where id is 54047
+[]
+Someone tried to access root
+wzpa connected, current users: wzpa
+ left, current users: wzpa
+ left, current users: wzpa
+ left, current users: wzpa
+Someone tried to access root
+not_wzpa connected, current users: wzpa,not_wzpa
+Someone tried to access root
+hackerman connected, current users: wzpa,not_wzpa,hackerman
+wzpa joined room 51723
+wzpa joined game 51723
+inside rooms foreach: room[id]: 51723
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', null ],
+  currentPlayer: 'wzpa' }
+Room 51723 was not found, wzpa failed to join.
+[ 'wzpa', null ]
+Someone tried to access root
+hackerman connected, current users: wzpa,not_wzpa,hackerman,hackerman
+wzpa left, current users: not_wzpa,hackerman
+ left, current users: not_wzpa,hackerman
+hackerman is trying to join lobby 51723
+51723 == 51723 //true
+Room 51723 is active.
+Adding player hackerman to room 51723
+Added new player, now room.players = wzpa,hackerman
+hackerman joined game 51723
+inside rooms foreach: room[id]: 51723
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+[wzpa]: asdf
+[hackerman]: <b>test</b>
+hackerman left, current users: not_wzpa
+[wzpa]: asdf
+not_wzpa joined room 13843
+not_wzpa joined game 13843
+inside rooms foreach: room[id]: 51723
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+Room 13843 was not found, not_wzpa failed to join.
+[ 'wzpa', 'hackerman' ]
+inside rooms foreach: room[id]: 51723
+{ creator: 'not_wzpa',
+  id: 13843,
+  title: 'asdf',
+  players: [ 'not_wzpa', null ],
+  currentPlayer: 'not_wzpa' }
+Room 13843 was not found, not_wzpa failed to join.
+[ 'not_wzpa', null ]
+Removing room where id is 13843
+[ { creator: 'wzpa',
+    id: 51723,
+    title: 'asdf',
+    players: [ 'wzpa', 'hackerman' ],
+    currentPlayer: 'wzpa' } ]
+Someone tried to access root
+not_wzpa connected, current users: not_wzpa,not_wzpa
+not_wzpanot_wzpa left, current users: 
+ left, current users: 
+ left, current users: 
+[wzpa]: http://prntscr.com/loqviw
+not_wzpa joined game 51723
+inside rooms foreach: room[id]: 51723
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+Room 51723 was not found, not_wzpa failed to join.
+[ 'wzpa', 'hackerman' ]
+[wzpa]: or wait
+hackerman joined game 51723
+inside rooms foreach: room[id]: 51723
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+{ creator: 'wzpa',
+  id: 51723,
+  title: 'asdf',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+ left, current users: 
+[not_wzpa]: thonkers
+[wzpa]: scamazed
+[hackerman]: nice
+[wzpa]: asd
+Removing room where id is 51723
+[]
+Someone tried to access root
+not_wzpa connected, current users: not_wzpa
+Someone tried to access root
+wzpa connected, current users: not_wzpa,wzpa
+Someone tried to access root
+hackerman connected, current users: not_wzpa,wzpa,hackerman
+not_wzpawzpahackerman left, current users: 
+ left, current users: hackerman,not_wzpa,wzpa
+ left, current users: hackerman,wzpa,not_wzpa
+hackerman joined room 64100
+hackerman joined game 64100
+inside rooms foreach: room[id]: 64100
+{ creator: 'hackerman',
+  id: 64100,
+  title: 'fdsf',
+  players: [ 'hackerman', null ],
+  currentPlayer: 'hackerman' }
+Room 64100 was not found, hackerman failed to join.
+[ 'hackerman', null ]
+hackerman left, current users: not_wzpa,wzpa
+wzpa is trying to join lobby 64100
+64100 == 64100 //true
+Room 64100 is active.
+Adding player wzpa to room 64100
+Added new player, now room.players = hackerman,wzpa
+wzpa joined game 64100
+inside rooms foreach: room[id]: 64100
+{ creator: 'hackerman',
+  id: 64100,
+  title: 'fdsf',
+  players: [ 'hackerman', 'wzpa' ],
+  currentPlayer: 'hackerman' }
+{ creator: 'hackerman',
+  id: 64100,
+  title: 'fdsf',
+  players: [ 'hackerman', 'wzpa' ],
+  currentPlayer: 'hackerman' }
+not_wzpawzpa left, current users: 
+ left, current users: 
+ left, current users: 
+Removing room where id is 64100
+[]
+Removing room where id is 64100
+[]
+Removing room where id is 64100
+[]
+Removing room where id is 64100
+[]
+Someone tried to access root
+Someone tried to access root
+wzpa connected, current users: wzpa
+hackerman joined game 64100
+Removing room where id is 64100
+[]
+Someone tried to access root
+hackerman connected, current users: wzpa,hackerman
+ left, current users: wzpa,hackerman
+ left, current users: wzpa,hackerman
+ left, current users: hackerman,wzpa
+Someone tried to access root
+wzpa connected, current users: hackerman,wzpa,wzpa
+wzpa joined room 85378
+hackerman is trying to join lobby 85378
+85378 == 85378 //true
+Room 85378 is active.
+Adding player hackerman to room 85378
+Added new player, now room.players = wzpa,hackerman
+hackermanwzpawzpa left, current users: 
+ left, current users: 
+ left, current users: 
+Someone tried to access root
+wzpa connected, current users: wzpa
+wzpa joined game 85378
+inside rooms foreach: room[id]: 85378
+{ creator: 'wzpa',
+  id: 85378,
+  title: 'asd',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+{ creator: 'wzpa',
+  id: 85378,
+  title: 'asd',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+wzpa left, current users: 
+ left, current users: 
+Removing room where id is 85378
+[]
+Someone tried to access root
+ left, current users: 
+wzpa connected, current users: wzpa
+ left, current users: wzpa
+ left, current users: wzpa
+ left, current users: wzpa
+wzpa left, current users: 
+Someone tried to access root
+wzpa connected, current users: wzpa
+Someone tried to access root
+wzpa connected, current users: wzpa,wzpa
+Server online at localhost:51911
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::1337
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Object.<anonymous> (/home/pawzpw/connect4.pawz.pw/main.js:209:6)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+Server online at localhost:51911
+Server online at localhost:51911
+Someone tried to access root
+hackerman connected, current users: hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman,hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,hackerman,hackerman,hackerman,hackerman,hackerman,hackerman
+Server online at localhost:51911
+Someone tried to access root
+wzpa connected, current users: wzpa
+Someone tried to access root
+hackerman connected, current users: wzpa,hackerman
+wzpa joined room 55836
+wzpa joined game 55836
+inside rooms foreach: room[id]: 55836
+{ creator: 'wzpa',
+  id: 55836,
+  title: 'asd',
+  players: [ 'wzpa', null ],
+  currentPlayer: 'wzpa' }
+Room 55836 was not found, wzpa failed to join.
+[ 'wzpa', null ]
+hackerman is trying to join lobby 55836
+55836 == 55836 //true
+Room 55836 is active.
+Adding player hackerman to room 55836
+Added new player, now room.players = wzpa,hackerman
+hackerman joined game 55836
+inside rooms foreach: room[id]: 55836
+{ creator: 'wzpa',
+  id: 55836,
+  title: 'asd',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+{ creator: 'wzpa',
+  id: 55836,
+  title: 'asd',
+  players: [ 'wzpa', 'hackerman' ],
+  currentPlayer: 'wzpa' }
+Removing room where id is 55836
+Someone tried to access root
+wzpa connected, current users: wzpa,hackerman,wzpa
+Someone tried to access root
+hackerman connected, current users: wzpa,hackerman,wzpa,hackerman
+ left, current users: hackerman,wzpa
+ left, current users: hackerman,wzpa
+ left, current users: wzpa,hackerman
+ left, current users: hackerman,wzpa
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman,hackerman,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman
+ left, current users: hackerman,wzpa,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman
+Someone tried to access root
+Someone tried to access root
+hackerman connected, current users: hackerman,wzpa,hackerman,hackerman,hackerman,hackerman
+wzpa left, current users: hackerman
+hackermanwzpa left, current users: 
+ left, current users: hackerman,wzpa
+ left, current users: wzpa,hackerman
+ left, current users: wzpa,hackerman
+ left, current users: hackerman,wzpa
+ left, current users: hackerman,wzpa
+ left, current users: hackerman,wzpa
+ left, current users: hackerman,wzpa
+hackerman left, current users: wzpa
+wzpa left, current users: 
+Someone tried to access root
+wzpa connected, current users: wzpa
+Someone tried to access root
+Someone tried to access root
+Someone tried to access root
+blackman connected, current users: wzpa,blackman
+blackman joined room 4677
+blackman joined game 4677
+inside rooms foreach: room[id]: 4677
+{ creator: 'blackman',
+  id: 4677,
+  title: 'yes',
+  players: [ 'blackman', null ],
+  currentPlayer: 'blackman' }
+Room 4677 was not found, blackman failed to join.
+[ 'blackman', null ]
+wzpa is trying to join lobby 4677
+4677 == 4677 //true
+Room 4677 is active.
+Adding player wzpa to room 4677
+Added new player, now room.players = blackman,wzpa
+wzpa joined game 4677
+inside rooms foreach: room[id]: 4677
+{ creator: 'blackman',
+  id: 4677,
+  title: 'yes',
+  players: [ 'blackman', 'wzpa' ],
+  currentPlayer: 'blackman' }
+{ creator: 'blackman',
+  id: 4677,
+  title: 'yes',
+  players: [ 'blackman', 'wzpa' ],
+  currentPlayer: 'blackman' }
+wzpablackman left, current users: 
+ left, current users: 
+Removing room where id is 4677
+Someone tried to access root
+wzpa connected, current users: wzpa
+Someone tried to access root
+blackman connected, current users: wzpa,blackman
+blackman left, current users: wzpa
+ left, current users: wzpa
+ left, current users: wzpa
+wzpa left, current users: 
+Server online at localhost:51911

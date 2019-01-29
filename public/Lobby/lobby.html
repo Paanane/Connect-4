@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Connect 4 Lobby</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="/Lobby/lobby.css">
+        <link rel="stylesheet" href="/Vendors/Chat/chat.css">
+    </head>
+
+    <body class="grey darken-4">
+
+        <div id="site" class="container hidden">
+
+            <div id="profile" class="grey darken-3">
+                <span id="name">Not logged in</span>
+                <button id="logout" class="grey darken-4">Log out</button>
+            </div>
+
+
+            <div id="lobby" class="col s6 offset-s3 grey darken-3">
+                <h2>Lobbies</h2>
+                <ul id="lobbies" data-empty-message="No lobbies"></ul>
+                <button id="create-lobby" class="light-green">Create lobby</button>
+            </div><!--lobby-->
+
+            <div id="chat">
+
+                <div id="users-wrapper">
+                    <ul id="online-users">
+                        <!--Online users-->
+                    </ul>
+                </div>
+
+                <hr>
+
+                <ul id="messages">
+                    <!--Chat messages-->
+                </ul>
+
+                <div id="controls">
+                    <input id="m" autocomplete="off" />
+                    <button id="send-message">Send</button>
+                </div>
+
+            </div><!--chat-->
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script>var socket = io();</script>
+        <script src="/Lobby/lobby.js"></script>
+
+    </body>
+</html>

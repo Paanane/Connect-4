@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Documentation</title>
+        <style>
+            body {
+                background-color: #dedede;
+            }
+            .doc-container,
+            img {
+                width: 40%;
+                margin: 0 auto;
+                background-color: #fafafa;
+                padding: 25px;
+                border-radius: 10px;
+                color: #202020;
+            }
+            img {
+                width: 90%;
+            }
+            p {
+                font-size: 18px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="doc-container">
+
+            <h2>Connect 4 - Ville Paananen, L4079, TTV17S4, 2.12.2018</h2>
+
+            <h3>Johdanto</h3>
+            <p>
+                <a href="https://connect4.pawz.pw">Connect 4</a> on Web-palvelinohjelmointikurssin TTMS0900 harjoitustyöseminaari.<br>
+                Harjoitustyöseminaarin on tehnyt yksin Ville Paananen.
+            </p>
+
+            <hr>
+
+            <h3>Itse sivusto</h3>
+            <p>
+                Projektin tarkoituksena oli tehdä monipelattava verkkopeli käyttäen NodeJS palvelinta,
+                Express frameworkkia ja Socket.io:ta.<br>
+
+                Socket.io:lla on kaksi osaa, selaimessa suoritettu kirjasto sekä NodeJS palvelinkirjasto.
+                Näiden kahden osan välillä voidaan viestittää dataa reaaliajassa. Tämän avulla voimme tehdä
+                reaaliajassa pelattavan verkkopelin.
+            </p>
+
+            <hr>
+
+            <h3>Pelin toiminta</h3>
+            <p>
+                Normaalisti kun painat vaikka "submit" nappia nettisivulla, se suorittaa toiminnon lokaalisesti.
+                Socket.IO:n avulla teemme asiat toisin; Kun nappia painetaan, lähetetään palvelimelle tieto painalluksesta,
+                jonka jälkeen palvelin lähettää komennon jokaiselle clientille, jotka kaikki suorittavat toiminnan lokaalisesti.
+            </p>
+
+            <img src="Concept.png" title="Konsepti" alt="Concept.png">
+
+            <hr>
+
+            <h3>Ohjelma ja koodi</h3>
+            <p>
+                Projekti on tehty NodeJS:llä ja projektille olennaisimmat käytetyt paketit ovat:
+            </p>
+            <ul>
+                <li><a href="https://expressjs.com/"><span>Express</span></a></li>
+                <li><a href="https://socket.io/"><span>Socket.io</span></a></li>
+                <li><a href="https://github.com/mysqljs/mysql"><span>Sql</span></a></li>
+                <li><a href="https://www.npmjs.com/package/cookie-parser"><span>Cookie parser</span></a></li>
+            </ul>
+
+            <p>Kansiorakenne</p>
+            <img src="Kansiorakenne.png" title="Kansiorakenne" alt="Kansiorakenne.png" style="width: 25%;">
+
+            <hr>
+
+            <h3>Toimintalogiikka</h3>
+            <p>
+                Käyttäjä aloittaa "Menu" -sivulta, josta pääsee eteenpäin kirjautumalla. Kirjauduttua käyttäjä ohjataan
+                "Lobby" -sivulle, jossa käyttäjä pääsee käsiksi kaikkiin toimintoihin.
+                Lobbyssä käyttäjä voi tehdä uuden pelin tai liittyä toisen käyttäjän tekemään peliin, jolloin hänet
+                ohjataan "Game" -sivulle kyseiseen peliin. Game-sivulla käyttäjä pelaa toista käyttäjää vastaan reaaliajassa,
+                ja halutessaan poistuu pelistä jolloin hänet ohjataan takaisin lobbyyn. Lobbyssä hän voi halutessaan
+                myös kirjautua ulos, jolloin käyttäjä ohjataan Menu-sivulle.
+            </p>
+            <img src="Connections.png" title="Toimintalogiikka" alt="Connections.png">
+
+
+            <hr>
+
+            <h3>Yhteenveto</h3>
+            <ul>
+                <li>Lähdekoodi: <a href="connect4.pawz.pw.zip">Download zip</a></li>
+                <li>Ajan käyttö: Työ aloitettu 5.10.2018, työ valmis 2.12.2018. Itse Connect 4 pelin olin koodannut valmiiksi ennen projektin aloitusta</li>
+                <li>
+                    Itsearvio:
+                    <ul>
+                        <li>Ohjelma sisältää hyvin kurssin aiheita: palvelin(peli), käyttäjätilit ja authentikointi,
+                            tietokanta, cookiet, regex, hash, jne.
+                        </li>
+                        <li>Peli toimii ja koodi on kohtalaista.</li>
+                        <li>Palautettu 2 päivää myöhässä</li>
+                        <li>Projektin ulkonäkö kaipaa uudistusta (css)</li>
+                        <li>Arvosanaehdotus 3-4</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </body>
+</html>

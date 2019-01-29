@@ -1,0 +1,10 @@
+RewriteEngine On
+DirectoryIndex disabled
+
+<FilesMatch "^\.htaccess">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+RewriteRule ^$ http://127.0.0.1:51911/ [P,L]
+RewriteRule ^(.*)$ http://127.0.0.1:51911/$1 [P,L]
